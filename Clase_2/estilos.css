@@ -1,0 +1,34 @@
+.barra{
+    background-color: coral;
+}
+.barra a{
+    padding: center;
+    text-align: center;
+    color: red;
+    display: block;
+    float: left;
+}
+
+.barra a:hover{
+    background-color: tomato;
+    color: black;
+}
+.columna{
+    float: left;
+    padding: 25px;
+    width: 25%;
+}
+@media screen and( max-width: 900px){
+    .columna{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px) {
+    .columna{
+        width: 100%;
+    }
+    .barra a{
+        float: none;
+        width: 100%;
+    }
+}

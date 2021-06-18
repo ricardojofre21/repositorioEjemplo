@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!--centrar los contenidos del body-->
+        <h1>Veterinaria</h1>
+        <hr>
+        <br>
+        <!--Definiendo los elementos del formulario <form></form>-->
+        <form action="index.html" method="GET">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Nombre:</td>
+                        <td><input type="text" id="nombre" placeholder="Ingrese nombre"></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo Mascota:</td>
+                        <td><select name="" id="tipo">
+                                <option>Seleccione</option>
+                                <option>Gato</option>
+                                <option>Perro</option>
+                                <option>Conejo</option>
+                                <option>Hamster</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>Fecha nacimiento:</td>
+                        <td><input type="date" id="nacimiento"></td>
+                    </tr>
+                    <tr>
+                        <td>Tipo cliente:</td>
+                        <td><input type="radio" name="grupo1" value="1" />Normal
+                            <input type="radio" name="grupo1" value="2" />VIP
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Servicios prestados</td>
+                        <td><input type="checkbox" id="vacuna" value="1" />Vacuna
+                            <input type="checkbox" id="peluqueria" value="1" />Peluqueria
+                            <input type="checkbox" id="consulta" value="1" />Consulta medica
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cuotas:</td>
+                        <td> <select id="cuotas">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="reset" value="Limpiar">
+                            <input type="submit" value="Continuar">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

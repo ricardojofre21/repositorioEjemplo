@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Sumando numeros</h1>
+    Ingrese el primer numero <input id="n1"><br><br>
+    Ingrese segundo numero <input id="n2"><br><br>
+    <button type="button" onclick="sumar()">Sumar
+    </button>
+    <p id="respuesta"></p>
+    <script>
+        function sumar() {
+            var num1 = 0, num2 = 0, suma = 0;
+            //capturando los valores desde el formulario
+            num1 = document.getElementById("n1").value;
+            num2 = document.getElementById("n2").value;
+            suma = parseFloat(num1) + parseFloat(num2);
+            //asociando la suma al parrafo respuesta
+            document.getElementById("respuesta").innerHTML = suma;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+a{
+    color: blue;
+}
+
+#estilo1{
+    color: gold;
+}
+#estilo2{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    color: hotpink;
+}
+#estilo3{
+ font-size: larger;
+ color: coral;
+}
+.estilo4{
+    color: lawngreen;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}

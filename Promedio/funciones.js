@@ -48,7 +48,18 @@ function promedioFinal() {
         document.getElementById("promedioparcial").innerHTML =  promNotas;
         document.getElementById("examenfinal").innerHTML =  entrada[4];
         document.getElementById("promediofinal").innerHTML =  promFinal;
-
-
     }
+    
+}
+
+function limpiar() {
+    for(i in arreglo){
+        document.getElementById(arreglo[i]).innerHTML="";
+        
+    }
+    document.getElementById("promedioparcial").innerHTML="";
+    document.getElementById("examenfinal").innerHTML="";
+    document.getElementById("promediofinal").innerHTML="";
+    document.getElementById("estadofinal").innerHTML="";
+    
 }
